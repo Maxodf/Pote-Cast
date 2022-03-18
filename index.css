@@ -1,0 +1,332 @@
+.logo1{
+    width: 35rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background{
+    background-color: rgb(131, 131, 185);
+}
+
+
+.polo{
+  min-height: 70vh;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: white;
+}
+
+.titre{
+    font-family: 'briceregular_expanded';
+    position: absolute;
+    font-size: 8rem;
+}
+
+/* .bouton{
+    font-family: 'briceregular_expanded';
+    position: absolute;
+    font-size: 3rem;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.bouton2{
+    position: absolute;
+    font-size: 3rem;
+    top: 80%;
+    display: block;
+    margin-left: 300px;
+}
+.bouton3{
+    position: absolute;
+    font-size: 3rem;
+    top: 80%;
+    display: block;
+    margin-right: 300px;
+}
+
+.presentation{
+  margin-top: 100px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+  color: white;
+
+}
+
+
+.nav-link{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-family: 'briceregular_expanded';
+}
+
+
+
+
+.copyright{
+    font-family: 'briceregular_expanded';
+}
+
+
+
+
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+  }
+  
+  .titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+
+
+  
+  .cta {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    margin: auto;
+    padding: 0px 25px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: white;
+  }
+
+.cta:hover{
+    color: white;
+}
+
+
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(255, 171, 157, 0.5);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    vertical-align: middle;
+    padding-bottom: 10px;
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+    width: 100%;
+    background: #ffab9d;
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  .cta:active {
+    transform: scale(0.96);
+  }
+
+
+
+  .cta2 {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    margin: auto;
+    padding: 0px 25px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: white;
+  }
+
+.cta2:hover{
+    color: white;
+}
+
+
+  .cta2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(157, 255, 186, 0.5);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .cta2 span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    vertical-align: middle;
+    padding-bottom: 10px;
+  }
+  .cta2 svg {
+    position: relative;
+    top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+
+
+
+
+
+
+
+  .cta2:hover:before {
+    width: 100%;
+    background: rgb(89, 219, 132);
+  }
+  .cta2:hover svg {
+    transform: translateX(0);
+  }
+  .cta2:active {
+    transform: scale(0.96);
+  }
+
+
+
+
+
+  @font-face {
+    font-family: 'briceregular_expanded';
+    src: url('font/brice-regular-expanded-webfont.woff2') format('woff2'),
+         url('font/brice-regular-expanded-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+.transition{
+  position: fixed;
+  width:100%;
+  height:100%;
+  background: #222222;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+  transition : ease-in 0.4s;
+}
+.transition.active{
+  opacity: 1;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    
+    .logo1{
+        width: 25rem;
+    }
+
+    .titre{
+        font-size: 80px;
+    }
+    
+    footer{
+
+    }
+
+    .bouton2{
+      position: absolute;
+      font-size: 1rem;
+      top: 40%;
+      display: block;
+      margin-left: 50px;
+    }
+
+    .bouton3{}
+}
+
+    
+
+
+@media screen and (max-width: 512px) {
+    
+  .logo1{
+      width: 20rem;
+  }
+
+  .titre{
+      font-size: 50px;
+  }
+  
+  footer{
+
+  }
+
+  .bouton2{
+
+  }
+
+  .bouton3{}
+}
+
+
+
+
+
+
+.reseaux{
+  width: clamp(10px, 2.5vw, 50px);
+  margin-right: max(1vw, 5px);
+  margin-bottom: 20px;
+}
+
+.reseaux:hover{
+  filter: drop-shadow(0 0 0.2rem #ffffff);;
+}
+

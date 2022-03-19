@@ -31,7 +31,13 @@ h5{
     margin-top: 20px;
 }
 
-
+.bd{
+    color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 150px;
+}
 
 
 p{color: white;
@@ -91,30 +97,10 @@ footer{
 
 
 
-@media screen and (max-width: 800px){
 
 
 
-}
 
-@media screen and (max-width: 992px) {
-    
-    .carte{
-        width: 15rem;
-        height: 15rem;
-        font-size: 10px;
-        border-radius: 3rem;
-    }
-
-    .carte1{
-        width: 15rem;
-        height: 15rem;
-        font-size: 10px;
-        border-radius: 3rem;
-    }
-    
-
-}
 
 
 
@@ -162,12 +148,78 @@ audio{
 
 
 .reseaux{
-    width: clamp(10px, 2.5vw, 50px);
+    width: clamp(35px, 2.5vw, 50px);
     margin-right: max(1vw, 5px);
     margin-bottom: 20px;
-}
+  }
 
 .reseaux:hover{
     filter: drop-shadow(0 0 0.2rem #ffffff);;
 }
 
+
+
+li{
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+    
+    .carte{
+        width: 15rem;
+        height: 15rem;
+        font-size: 10px;
+        border-radius: 3rem;
+    }
+
+    .carte1{
+        width: 15rem;
+        height: 15rem;
+        font-size: 10px;
+        border-radius: 3rem;
+    }
+    
+
+
+    audio{
+        background-color: orange;
+        color: white;
+        width: 400px;
+        border-radius: 50px;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+}
+
+
+
+
+@media screen and (max-width: 512px){
+
+    audio{
+        background-color: orange;
+        color: white;
+        width: 400px;
+        border-radius: 50px;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer{
+        margin-top: 50px;
+    }
+
+    #texte1{
+        color: rgb(0, 0, 0);
+        font-family: 'Quicksand', sans-serif;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+}

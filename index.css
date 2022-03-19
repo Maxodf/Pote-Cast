@@ -38,16 +38,15 @@ footer{
 } */
 
 .bouton2{
-    position: absolute;
     font-size: 3rem;
-    top: 80%;
+    margin-top: 100px;
     display: block;
     margin-left: 300px;
+    margin-bottom: 100px;
 }
 .bouton3{
-    position: absolute;
     font-size: 3rem;
-    top: 80%;
+    margin-top: 100px;
     display: block;
     margin-right: 300px;
 }
@@ -289,18 +288,16 @@ footer{
 @media screen and (max-width: 1200px){
 
   .bouton2{
-    position: absolute;
     font-size: 1rem;
-    top: 70%;
+    margin-top: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
   .bouton3{
-    position: absolute;
     font-size: 1rem;
-    top: 70%;
+    margin-top: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -341,22 +338,21 @@ footer{
   }
 
   .bouton2{
-    position: absolute;
     font-size: 1rem;
-    top: 50%;
+    margin-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
   .bouton3{
-    position: absolute;
+
     font-size: 1rem;
-    top: 60%;
+    margin-bottom: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+  } 
 }
 
   
@@ -365,158 +361,11 @@ footer{
 @media screen and (max-width: 512px) {
   
 .logo1{
-    width: 20rem;
+    width: 25rem;
 }
 
 .titre{
     font-size: 50px;
-}
-
-.bouton2{
-  position: absolute;
-  font-size: 1rem;
-  top: 40%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bouton3{
-  position: absolute;
-  font-size: 1rem;
-  top: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-.cta {
-  font-family: 'Quicksand', sans-serif;
-  position: relative;
-  margin: auto;
-  padding: 15px 15px;
-  transition: all 0.2s ease;
-  text-decoration: none;
-  color: white;
-}
-
-.cta:hover{
-  color: white;
-}
-
-
-.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: rgba(255, 171, 157, 0.5);
-  width: 46px;
-  height: 46px;
-  transition: all 0.3s ease;
-}
-.cta span {
-  position: relative;
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 900;
-  vertical-align: middle;
-  padding-bottom: 10px;
-}
-.cta svg {
-  position: relative;
-  top: 0;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: rgb(255, 255, 255);
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-.cta:hover:before {
-  width: 100%;
-  background: #ffab9d;
-}
-.cta:hover svg {
-  transform: translateX(0);
-}
-.cta:active {
-  transform: scale(0.96);
-}
-
-
-.cta2 {
-  font-family: 'Quicksand', sans-serif;
-  position: relative;
-  margin: auto;
-  padding: 15px 15px;
-  transition: all 0.2s ease;
-  text-decoration: none;
-  color: white;
-}
-
-.cta2:hover{
-  color: white;
-}
-
-
-.cta2:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: rgba(157, 255, 186, 0.5);
-  width: 46px;
-  height: 46px;
-  transition: all 0.3s ease;
-}
-.cta2 span {
-  position: relative;
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 900;
-  vertical-align: middle;
-  padding-bottom: 10px;
-}
-.cta2 svg {
-  position: relative;
-  top: 0;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: rgb(255, 255, 255);
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-
-
-
-
-
-
-
-.cta2:hover:before {
-  width: 100%;
-  background: rgb(89, 219, 132);
-}
-.cta2:hover svg {
-  transform: translateX(0);
-}
-.cta2:active {
-  transform: scale(0.96);
 }
 
 
@@ -528,21 +377,11 @@ footer{
 }
 
 
-@media screen and (max-width: 500px) {
-  
-  .bouton2{
-    top: 42%;
-  }
-  .bouton3{
-    top: 50%;
-  }
-
-  
-}
 
 
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 400px){
   
   .logo1{
       width: 20rem;
@@ -551,164 +390,22 @@ footer{
   .titre{
       font-size: 40px;
   }
-  
+
   .bouton2{
-    top: 55%;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .bouton3{
-    top: 65%;
-  }
-  
 
-
-  
-  
-  
-  
-  .cta {
-    font-family: 'Quicksand', sans-serif;
-    position: relative;
-    margin: auto;
-    padding: 15px 15px;
-    transition: all 0.2s ease;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .cta:hover{
-    color: white;
-  }
-  
-  
-  .cta:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 28px;
-    background: rgba(255, 171, 157, 0.5);
-    width: 42px;
-    height: 42px;
-    transition: all 0.3s ease;
-  }
-  .cta span {
-    position: relative;
     font-size: 12px;
-    line-height: 18px;
-    font-weight: 900;
-    vertical-align: middle;
-    padding-bottom: 10px;
-  }
-  .cta svg {
-    position: relative;
-    top: 0;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: rgb(255, 255, 255);
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-  }
-  .cta:hover:before {
-    width: 100%;
-    background: #ffab9d;
-  }
-  .cta:hover svg {
-    transform: translateX(0);
-  }
-  .cta:active {
-    transform: scale(0.96);
-  }
-  
-  
-  .cta2 {
-    font-family: 'Quicksand', sans-serif;
-    position: relative;
-    margin: auto;
-    padding: 15px 15px;
-    transition: all 0.2s ease;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .cta2:hover{
-    color: white;
-  }
-  
-  
-  .cta2:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-bottom: 100px;
     display: block;
-    border-radius: 28px;
-    background: rgba(157, 255, 186, 0.5);
-    width: 42px;
-    height: 42px;
-    transition: all 0.3s ease;
-  }
-  .cta2 span {
-    position: relative;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 900;
-    vertical-align: middle;
-    padding-bottom: 10px;
-  }
-  .cta2 svg {
-    position: relative;
-    top: 0;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: rgb(255, 255, 255);
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-  }
+    margin-left: auto;
+    margin-right: auto;
+  } 
   
-  
-  
-  
-  
-  
-  
-  .cta2:hover:before {
-    width: 100%;
-    background: rgb(89, 219, 132);
-  }
-  .cta2:hover svg {
-    transform: translateX(0);
-  }
-  .cta2:active {
-    transform: scale(0.96);
-  }
-  
-  
-  
-  footer{
-    margin-top: 50px;
-  }
-  
-  }
-  
-
-
-  @media screen and (max-width: 380px) {
-  
-    .bouton2{
-      top: 40%;
-    }
-    .bouton3{
-      top: 48%;
-    }
-
-    
-  }
+}
